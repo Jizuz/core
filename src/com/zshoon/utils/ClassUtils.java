@@ -1,4 +1,4 @@
-package cn.md.util;
+package com.zshoon.utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,17 +9,17 @@ import java.util.List;
 
 /** 
  * <Description> 类帮助类<br> 
- * @author Jesus<br>
+ * @author Jizuz<br>
  * @version 1.0<br>
  * @CreateDate 2016年12月8日 <br>
  * @since V1.0<br>
- * @see cn.md.util <br>
+ * @see com.zshoon.utils <br>
  */
 public class ClassUtils {
 	
 	/**
 	 * Description: 给一个接口，返回这个接口的所有实现类<br> 
-	 * @author Jesus<br>
+	 * @author Jizuz<br>
 	 * @param c Class<br>
 	 * @return List<Class><br>
 	 */
@@ -54,7 +54,7 @@ public class ClassUtils {
   
     /**
      * Description: 从一个包中查找出所有的类，在jar包中不能查找<br> 
-     * @author Jesus<br>
+     * @author Jizuz<br>
      * @param packageName String<br>
      * @return List<Class><br>
      * @throws ClassNotFoundException<br>
@@ -79,7 +79,7 @@ public class ClassUtils {
 
     /**
      * Description: <br> 
-     * @author Jesus<br>
+     * @author Jizuz<br>
      * @param directory File<br>
      * @param packageName String<br>
      * @return List<Class><br>
